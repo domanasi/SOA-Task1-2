@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SOAP task 1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script  src="AJAXlib.js">
+</script>
+<SCRIPT SRC="newjs.js">
+</SCRIPT>
+</head>
+<body>
+
+<h1>Simple calculator with text conversion for integers</h1>
+
+
+<div id="calc">
+	<p>
+    Value 1: <input type="text" id="value1" value="" /> <br />
+    Value 2: <input type="text" id="value2" value="" /> <br />
+    </p>
+    <p>
+    Choose operation type:
+    <input type="button" id="bplus" value="+" onclick="doAddition();" />
+    <input type="button" id="bminus" value="-" onclick="doSubstraction();" />
+    <input type="button" id="btimes" value="*" onclick="doMultiplication();" />
+    <input type="button" id="bdivide" value="/" onclick="doDivision();" />
+    </p>    
+</div>
+
+<p></p>
+<p id="result">
+    The result of your calculation is <input type="text" id="tResult" />
+</p>
+<p id="pConvert">
+	 <input type="button" id="bResultToText" value="Result as text" onclick="convertToText();" /><input type="text" id="tResultText" />
+</p>
+
+</body>
+</html>
